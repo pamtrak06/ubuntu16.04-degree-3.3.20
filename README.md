@@ -17,7 +17,7 @@ $ cd ubuntu16.04-degree-3.3.20.git
 $ docker build -t pamtrak06/ubuntu16.04-degree-3.3.20 .
 ```
 
-## Run container
+## Run container 
 
 ```
 $ docker run -d -p 8080:8080 -v <your local path to mapserver data>/data:/data pamtrak06/ubuntu16.04-degree-3.3.20
@@ -53,4 +53,3 @@ Test win/mac install  : http://192.168.99.100:8080
 Test lin install      : http://[host ip]:8080
 
 ![logo](http://download.deegree.org/documentation/3.3.19/html/_images/console_start.jpg)
-
