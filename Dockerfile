@@ -1,4 +1,4 @@
-FROM pamtrak06/ubuntu16.04-jdk8
+FROM pamtrak06/ubuntu16.04-jdk7
 
 RUN apt-get update && \
     apt-get install -y wget unzip
